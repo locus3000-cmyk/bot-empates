@@ -11,9 +11,8 @@ HEADERS = {"x-apisports-key": API_KEY}
 
 PALABRAS_LIGAS = ["World Cup","Brazil","Argentina","Colombia","MLS","USA",
                   "Norway","Sweden","Finland","Japan","Korea"]
-BANDA_MIN, BANDA_MAX = 2.7, 3.0          # <-- piso 2.7 / techo 3.0 (sube el 3.0 si quieres mas)
+BANDA_MIN, BANDA_MAX = 2.7, 3.0          # cuota de empate que te interesa
 HORAS_ANTES = 3
-MAX_ODDS_POR_PLAN = 40
 AGENDA = "agenda.json"
 EXCEL = "registro_empates.xlsx"
 
@@ -59,8 +58,8 @@ if os.path.exists(AGENDA):
 else:
     agenda = {"fecha_plan": "", "partidos": {}}
 
+# ===== PLANEACION (1 vez al dia): listar partidos, SIN cuotas todavia =====
 if agenda.get("fecha_plan") != hoy:
-    nuevos = 0
     for fecha in [hoy, manana]:
         r = requests.get(f"{BASE}/fixtures", headers=HEADERS,
                          params={"date": fecha, "timezone": "America/Bogota"})
@@ -68,55 +67,56 @@ if agenda.get("fecha_plan") != hoy:
             if not nos_interesa(fx): continue
             fid = str(fx["fixture"]["id"])
             if fid in agenda["partidos"]: continue
-            if nuevos >= MAX_ODDS_POR_PLAN: continue
-            cuota = cuota_empate(fid); nuevos += 1
-            if cuota is None: continue
             agenda["partidos"][fid] = {
                 "partido": f"{fx['teams']['home']['name']} vs {fx['teams']['away']['name']}",
                 "liga": fx["league"]["name"],
                 "kickoff": fx["fixture"]["date"],
-                "cuota": cuota,
-                "prob": round(100/cuota, 1),
-                "en_banda": BANDA_MIN <= cuota <= BANDA_MAX,
-                "alertado": False,
-                "resuelto": False,
+                "evaluado": False, "alertado": False, "resuelto": False,
+                "cuota": None, "prob": None,
             }
     agenda["fecha_plan"] = hoy
     limite = ahora - timedelta(hours=12)
     for fid in list(agenda["partidos"].keys()):
         if datetime.fromisoformat(agenda["partidos"][fid]["kickoff"]) < limite:
             del agenda["partidos"][fid]
-    cand = [p for p in agenda["partidos"].values() if p["en_banda"] and not p["alertado"]]
+    hoy_count = sum(1 for p in agenda["partidos"].values() if p["kickoff"][:10] == hoy)
     telegram("📋 Agenda lista (" + hoy + ")\n"
              "━━━━━━━━━━━━━━\n"
-             f"👀 Partidos vigilados: {len(agenda['partidos'])}\n"
-             f"🎯 Candidatos a empate (cuota {BANDA_MIN}-{BANDA_MAX}): {len(cand)}\n"
-             f"🔔 Te aviso {HORAS_ANTES}h antes de cada uno")
+             f"👀 Partidos en la mira hoy: {hoy_count}\n"
+             f"🔍 Revisare la cuota de cada uno ~{HORAS_ANTES}h antes\n"
+             f"🎯 Te aviso si la cuota de empate queda entre {BANDA_MIN} y {BANDA_MAX}")
 
+# ===== EVALUAR + ALERTAR (cada corrida): cuota FRESCA ~3h antes =====
 for fid, p in agenda["partidos"].items():
-    if not p["en_banda"] or p["alertado"]: continue
+    if p["evaluado"] or p["alertado"]: continue
     ko = datetime.fromisoformat(p["kickoff"])
     minutos = (ko - ahora).total_seconds() / 60
     if 0 < minutos <= HORAS_ANTES*60:
-        telegram("🚨⚽ ALERTA DE EMPATE ⚽🚨\n"
-                 "━━━━━━━━━━━━━━\n"
-                 f"🆚 {p['partido']}\n"
-                 f"🏆 {p['liga']}\n"
-                 f"📅 {ko.strftime('%d/%m/%Y')}\n"
-                 f"🕒 {ko.strftime('%H:%M')} (hora Colombia)\n"
-                 f"⏳ Faltan ~{HORAS_ANTES} horas\n"
-                 "━━━━━━━━━━━━━━\n"
-                 f"💰 Cuota empate: {p['cuota']}\n"
-                 f"📊 Probabilidad: {p['prob']}%\n"
-                 "━━━━━━━━━━━━━━")
-        wb, ws = abrir_excel()
-        ws.append([ko.strftime("%Y-%m-%d"), p["partido"], p["liga"],
-                   ko.strftime("%H:%M"), p["cuota"], p["prob"], "", "", "", fid])
-        wb.save(EXCEL)
-        p["alertado"] = True
+        cuota = cuota_empate(fid)
+        p["evaluado"] = True
+        p["cuota"] = cuota
+        if cuota is not None and BANDA_MIN <= cuota <= BANDA_MAX:
+            p["prob"] = round(100/cuota, 1)
+            telegram("🚨⚽ ALERTA DE EMPATE ⚽🚨\n"
+                     "━━━━━━━━━━━━━━\n"
+                     f"🆚 {p['partido']}\n"
+                     f"🏆 {p['liga']}\n"
+                     f"📅 {ko.strftime('%d/%m/%Y')}\n"
+                     f"🕒 {ko.strftime('%H:%M')} (hora Colombia)\n"
+                     f"⏳ Faltan ~{HORAS_ANTES} horas\n"
+                     "━━━━━━━━━━━━━━\n"
+                     f"💰 Cuota empate: {p['cuota']}\n"
+                     f"📊 Probabilidad: {p['prob']}%\n"
+                     "━━━━━━━━━━━━━━")
+            wb, ws = abrir_excel()
+            ws.append([ko.strftime("%Y-%m-%d"), p["partido"], p["liga"],
+                       ko.strftime("%H:%M"), p["cuota"], p["prob"], "", "", "", fid])
+            wb.save(EXCEL)
+            p["alertado"] = True
 
+# ===== RESULTADOS (cada corrida) =====
 for fid, p in agenda["partidos"].items():
-    if not (p["alertado"] and p["en_banda"]) or p["resuelto"]: continue
+    if not p["alertado"] or p["resuelto"]: continue
     ko = datetime.fromisoformat(p["kickoff"])
     if (ahora - ko).total_seconds()/3600 < 2.5: continue
     rr = requests.get(f"{BASE}/fixtures", headers=HEADERS, params={"id": fid})
@@ -145,4 +145,4 @@ for fid, p in agenda["partidos"].items():
 with open(AGENDA, "w", encoding="utf-8") as f:
     json.dump(agenda, f, ensure_ascii=False, indent=2)
 
-print(f"Run OK {ahora.strftime('%Y-%m-%d %H:%M')}. Partidos en agenda: {len(agenda['partidos'])}")
+print(f"Run OK {ahora.strftime('%Y-%m-%d %H:%M')}. Partidos: {len(agenda['partidos'])}")
