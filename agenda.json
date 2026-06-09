@@ -1,0 +1,95 @@
+{
+  "fecha_plan": "2026-06-09",
+  "partidos": {
+    "1548300": {
+      "partido": "Honka vs HJK Helsinki",
+      "liga": "Suomen Cup",
+      "kickoff": "2026-06-09T10:30:00-05:00",
+      "cuota": 10.04,
+      "prob": 10.0,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1504241": {
+      "partido": "SJK Akatemia vs JIPPO",
+      "liga": "Ykkösliiga",
+      "kickoff": "2026-06-09T11:00:00-05:00",
+      "cuota": 3.54,
+      "prob": 28.2,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1523938": {
+      "partido": "Slovenia W vs Germany W",
+      "liga": "World Cup - Women - Qualification Europe",
+      "kickoff": "2026-06-09T11:00:00-05:00",
+      "cuota": 9.31,
+      "prob": 10.7,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1523939": {
+      "partido": "Norway W vs Austria W",
+      "liga": "World Cup - Women - Qualification Europe",
+      "kickoff": "2026-06-09T11:00:00-05:00",
+      "cuota": 3.83,
+      "prob": 26.1,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1497593": {
+      "partido": "IK brage vs Ljungskile SK",
+      "liga": "Superettan",
+      "kickoff": "2026-06-09T12:00:00-05:00",
+      "cuota": 3.39,
+      "prob": 29.5,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1497595": {
+      "partido": "United Nordic vs Ostersunds FK",
+      "liga": "Superettan",
+      "kickoff": "2026-06-09T12:00:00-05:00",
+      "cuota": 3.4,
+      "prob": 29.4,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1497596": {
+      "partido": "Oddevold vs IFK Norrkoping",
+      "liga": "Superettan",
+      "kickoff": "2026-06-09T12:00:00-05:00",
+      "cuota": 3.44,
+      "prob": 29.1,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1497598": {
+      "partido": "Osters IF vs IFK Varnamo",
+      "liga": "Superettan",
+      "kickoff": "2026-06-09T12:00:00-05:00",
+      "cuota": 3.65,
+      "prob": 27.4,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    },
+    "1497599": {
+      "partido": "Sandviken vs Falkenbergs FF",
+      "liga": "Superettan",
+      "kickoff": "2026-06-09T12:00:00-05:00",
+      "cuota": 3.49,
+      "prob": 28.7,
+      "en_banda": false,
+      "alertado": false,
+      "resuelto": false
+    }
+  }
+}
