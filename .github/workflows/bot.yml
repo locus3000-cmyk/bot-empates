@@ -3,7 +3,7 @@ name: Bot Empates
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
@@ -29,10 +29,10 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python bot.py
 
-      - name: Guardar el registro
+      - name: Guardar cambios
         run: |
           git config user.name "bot"
           git config user.email "bot@github"
-          git add registro_empates.xlsx
-          git commit -m "Actualizar registro" || echo "Sin cambios"
+          git add -A
+          git commit -m "Actualizar agenda y registro" || echo "Sin cambios"
           git push || echo "Nada que subir"
