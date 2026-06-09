@@ -11,7 +11,7 @@ HEADERS = {"x-apisports-key": API_KEY}
 
 PALABRAS_LIGAS = ["World Cup","Brazil","Argentina","Colombia","MLS","USA",
                   "Norway","Sweden","Finland","Japan","Korea"]
-BANDA_MIN, BANDA_MAX = 2.5, 2.9
+BANDA_MIN, BANDA_MAX = 2.7, 3.0          # <-- piso 2.7 / techo 3.0 (sube el 3.0 si quieres mas)
 HORAS_ANTES = 3
 MAX_ODDS_POR_PLAN = 40
 AGENDA = "agenda.json"
@@ -87,21 +87,28 @@ if agenda.get("fecha_plan") != hoy:
         if datetime.fromisoformat(agenda["partidos"][fid]["kickoff"]) < limite:
             del agenda["partidos"][fid]
     cand = [p for p in agenda["partidos"].values() if p["en_banda"] and not p["alertado"]]
-    telegram(f"📋 Agenda lista ({hoy}).\n"
-             f"Partidos vigilados: {len(agenda['partidos'])}\n"
-             f"Candidatos a empate (cuota {BANDA_MIN}-{BANDA_MAX}): {len(cand)}\n"
-             f"Te aviso {HORAS_ANTES}h antes de cada uno.")
+    telegram("📋 Agenda lista (" + hoy + ")\n"
+             "━━━━━━━━━━━━━━\n"
+             f"👀 Partidos vigilados: {len(agenda['partidos'])}\n"
+             f"🎯 Candidatos a empate (cuota {BANDA_MIN}-{BANDA_MAX}): {len(cand)}\n"
+             f"🔔 Te aviso {HORAS_ANTES}h antes de cada uno")
 
 for fid, p in agenda["partidos"].items():
     if not p["en_banda"] or p["alertado"]: continue
     ko = datetime.fromisoformat(p["kickoff"])
     minutos = (ko - ahora).total_seconds() / 60
     if 0 < minutos <= HORAS_ANTES*60:
-        telegram(f"⚽ ALERTA DE EMPATE\n\n"
-                 f"{p['partido']}\n{p['liga']}\n"
-                 f"{ko.strftime('%d/%m a las %H:%M')} (hora Colombia)\n"
-                 f"Cuota empate: {p['cuota']}  ({p['prob']}%)\n\n"
-                 f"Faltan ~{HORAS_ANTES} horas.")
+        telegram("🚨⚽ ALERTA DE EMPATE ⚽🚨\n"
+                 "━━━━━━━━━━━━━━\n"
+                 f"🆚 {p['partido']}\n"
+                 f"🏆 {p['liga']}\n"
+                 f"📅 {ko.strftime('%d/%m/%Y')}\n"
+                 f"🕒 {ko.strftime('%H:%M')} (hora Colombia)\n"
+                 f"⏳ Faltan ~{HORAS_ANTES} horas\n"
+                 "━━━━━━━━━━━━━━\n"
+                 f"💰 Cuota empate: {p['cuota']}\n"
+                 f"📊 Probabilidad: {p['prob']}%\n"
+                 "━━━━━━━━━━━━━━")
         wb, ws = abrir_excel()
         ws.append([ko.strftime("%Y-%m-%d"), p["partido"], p["liga"],
                    ko.strftime("%H:%M"), p["cuota"], p["prob"], "", "", "", fid])
@@ -128,8 +135,12 @@ for fid, p in agenda["partidos"].items():
                 fila[8].value = "SI" if empato else "NO"
         wb.save(EXCEL)
     p["resuelto"] = True
-    telegram(f"📊 Resultado: {p['partido']}\n"
-             f"Marcador {marcador} → {'ACERTAMOS ✅' if empato else 'No fue empate ❌'}")
+    veredicto = "✅ ¡ACERTAMOS! Fue empate" if empato else "❌ No fue empate"
+    telegram("📊 RESULTADO FINAL\n"
+             "━━━━━━━━━━━━━━\n"
+             f"🆚 {p['partido']}\n"
+             f"🔢 Marcador: {marcador}\n"
+             f"{veredicto}")
 
 with open(AGENDA, "w", encoding="utf-8") as f:
     json.dump(agenda, f, ensure_ascii=False, indent=2)
