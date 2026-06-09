@@ -3,7 +3,6 @@ from datetime import datetime, timezone, timedelta
 import openpyxl
 from openpyxl import Workbook
 
-# ===== CONFIG =====
 API_KEY = os.environ["API_FOOTBALL_KEY"]
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID = "691112681"
@@ -54,14 +53,12 @@ def abrir_excel():
                    "Resultado real","Marcador","Acerto?","ID"])
     return wb, ws
 
-# ===== cargar agenda =====
 if os.path.exists(AGENDA):
     with open(AGENDA, "r", encoding="utf-8") as f:
         agenda = json.load(f)
 else:
     agenda = {"fecha_plan": "", "partidos": {}}
 
-# ===== PARTE A: PLANEACION (una vez al dia) =====
 if agenda.get("fecha_plan") != hoy:
     nuevos = 0
     for fecha in [hoy, manana]:
@@ -85,19 +82,16 @@ if agenda.get("fecha_plan") != hoy:
                 "resuelto": False,
             }
     agenda["fecha_plan"] = hoy
-
     limite = ahora - timedelta(hours=12)
     for fid in list(agenda["partidos"].keys()):
         if datetime.fromisoformat(agenda["partidos"][fid]["kickoff"]) < limite:
             del agenda["partidos"][fid]
-
     cand = [p for p in agenda["partidos"].values() if p["en_banda"] and not p["alertado"]]
     telegram(f"📋 Agenda lista ({hoy}).\n"
              f"Partidos vigilados: {len(agenda['partidos'])}\n"
              f"Candidatos a empate (cuota {BANDA_MIN}-{BANDA_MAX}): {len(cand)}\n"
              f"Te aviso {HORAS_ANTES}h antes de cada uno.")
 
-# ===== PARTE B: ENVIAR ALERTAS (cada corrida) =====
 for fid, p in agenda["partidos"].items():
     if not p["en_banda"] or p["alertado"]: continue
     ko = datetime.fromisoformat(p["kickoff"])
@@ -114,7 +108,6 @@ for fid, p in agenda["partidos"].items():
         wb.save(EXCEL)
         p["alertado"] = True
 
-# ===== PARTE C: RESULTADOS (cada corrida) =====
 for fid, p in agenda["partidos"].items():
     if not (p["alertado"] and p["en_banda"]) or p["resuelto"]: continue
     ko = datetime.fromisoformat(p["kickoff"])
@@ -138,7 +131,6 @@ for fid, p in agenda["partidos"].items():
     telegram(f"📊 Resultado: {p['partido']}\n"
              f"Marcador {marcador} → {'ACERTAMOS ✅' if empato else 'No fue empate ❌'}")
 
-# ===== guardar agenda =====
 with open(AGENDA, "w", encoding="utf-8") as f:
     json.dump(agenda, f, ensure_ascii=False, indent=2)
 
