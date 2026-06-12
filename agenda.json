@@ -515,21 +515,21 @@
       "partido": "Canada vs Bosnia & Herzegovina",
       "liga": "World Cup",
       "kickoff": "2026-06-12T14:00:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
-      "cuota": null,
+      "cuota": 3.46,
       "prob": null
     },
     "1499945": {
       "partido": "Defensores de Cambaceres vs Berazategui",
       "liga": "Primera C",
       "kickoff": "2026-06-12T16:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
+      "evaluado": true,
+      "alertado": true,
       "resuelto": false,
-      "cuota": null,
-      "prob": null
+      "cuota": 2.77,
+      "prob": 36.1
     },
     "1520721": {
       "partido": "Atletico Goianiense vs CRB",
