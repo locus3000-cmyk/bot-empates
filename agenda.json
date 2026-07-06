@@ -697,7 +697,7 @@
       "kickoff": "2026-07-05T11:00:00-05:00",
       "evaluado": true,
       "alertado": true,
-      "resuelto": false,
+      "resuelto": true,
       "cuota": 2.73,
       "prob": 36.6
     },
@@ -707,7 +707,7 @@
       "kickoff": "2026-07-05T11:00:00-05:00",
       "evaluado": true,
       "alertado": true,
-      "resuelto": false,
+      "resuelto": true,
       "cuota": 2.75,
       "prob": 36.4
     },
@@ -717,7 +717,7 @@
       "kickoff": "2026-07-05T11:00:00-05:00",
       "evaluado": true,
       "alertado": true,
-      "resuelto": false,
+      "resuelto": true,
       "cuota": 2.85,
       "prob": 35.1
     },
@@ -727,7 +727,7 @@
       "kickoff": "2026-07-05T11:00:00-05:00",
       "evaluado": true,
       "alertado": true,
-      "resuelto": false,
+      "resuelto": true,
       "cuota": 2.93,
       "prob": 34.1
     },
@@ -747,7 +747,7 @@
       "kickoff": "2026-07-05T12:00:00-05:00",
       "evaluado": true,
       "alertado": true,
-      "resuelto": false,
+      "resuelto": true,
       "cuota": 2.92,
       "prob": 34.2
     },
@@ -757,7 +757,7 @@
       "kickoff": "2026-07-05T12:00:00-05:00",
       "evaluado": true,
       "alertado": true,
-      "resuelto": false,
+      "resuelto": true,
       "cuota": 2.97,
       "prob": 33.7
     },
@@ -1485,40 +1485,40 @@
       "partido": "Austin II vs Colorado Rapids II",
       "liga": "MLS Next Pro",
       "kickoff": "2026-07-05T19:30:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
-      "cuota": null,
+      "cuota": 4.4,
       "prob": null
     },
     "1513196": {
       "partido": "Los Angeles FC II vs Real Monarchs",
       "liga": "MLS Next Pro",
       "kickoff": "2026-07-05T20:00:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
-      "cuota": null,
+      "cuota": 3.69,
       "prob": null
     },
     "1513205": {
       "partido": "Tacoma Defiance vs Portland Timbers II",
       "liga": "MLS Next Pro",
       "kickoff": "2026-07-05T21:00:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
-      "cuota": null,
+      "cuota": 3.52,
       "prob": null
     },
     "1493891": {
       "partido": "Alta vs Charlotte Independence",
       "liga": "USL League One",
       "kickoff": "2026-07-05T22:00:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
-      "cuota": null,
+      "cuota": 3.45,
       "prob": null
     },
     "1494193": {
