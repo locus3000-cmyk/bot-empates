@@ -1,1516 +1,6 @@
 {
-  "fecha_plan": "2026-07-05",
+  "fecha_plan": "2026-07-06",
   "partidos": {
-    "1493569": {
-      "partido": "Tampa Bay Rowdies vs Lexington",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.88,
-      "prob": null
-    },
-    "1526878": {
-      "partido": "Confiança vs Barra",
-      "liga": "Serie C",
-      "kickoff": "2026-07-04T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.98,
-      "prob": 33.6
-    },
-    "1526882": {
-      "partido": "Maringá vs Volta Redonda",
-      "liga": "Serie C",
-      "kickoff": "2026-07-04T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.57,
-      "prob": null
-    },
-    "1557276": {
-      "partido": "Brasil DE Pelotas vs Santa Cruz RS",
-      "liga": "Copa Gaúcha",
-      "kickoff": "2026-07-04T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.45,
-      "prob": null
-    },
-    "1567808": {
-      "partido": "Velo Clube vs São Luiz",
-      "liga": "Serie D",
-      "kickoff": "2026-07-04T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.84,
-      "prob": 35.2
-    },
-    "1508452": {
-      "partido": "North Carolina Courage W vs Seattle Reign FC W",
-      "liga": "NWSL Women",
-      "kickoff": "2026-07-04T17:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1526883": {
-      "partido": "Santa Cruz vs Ituano",
-      "liga": "Serie C",
-      "kickoff": "2026-07-04T17:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493566": {
-      "partido": "Pittsburgh Riverhounds vs Brooklyn",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493890": {
-      "partido": "NY Cosmos vs Greenville Triumph",
-      "liga": "USL League One",
-      "kickoff": "2026-07-04T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513193": {
-      "partido": "Atlanta United II vs Toronto II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-04T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1520755": {
-      "partido": "Goias vs Ceara",
-      "liga": "Serie B",
-      "kickoff": "2026-07-04T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493567": {
-      "partido": "Rhode Island vs Orange County SC",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493887": {
-      "partido": "Corpus Christi vs Chattanooga Red Wolves",
-      "liga": "USL League One",
-      "kickoff": "2026-07-04T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493888": {
-      "partido": "Fort Wayne vs Spokane Velocity",
-      "liga": "USL League One",
-      "kickoff": "2026-07-04T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513194": {
-      "partido": "Chattanooga vs Inter Miami II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-04T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1526879": {
-      "partido": "Ferroviária vs Caxias",
-      "liga": "Serie C",
-      "kickoff": "2026-07-04T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1526880": {
-      "partido": "Guarani Campinas vs Floresta",
-      "liga": "Serie C",
-      "kickoff": "2026-07-04T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493564": {
-      "partido": "Louisville City vs Hartford Athletic",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T19:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.83,
-      "prob": null
-    },
-    "1525239": {
-      "partido": "GFI vs Houston Sur",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-04T19:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525240": {
-      "partido": "Jackson Boom vs Mississippi Brilla",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-04T19:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 6.87,
-      "prob": null
-    },
-    "1525242": {
-      "partido": "Brazos Valley vs Laredo Heat",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-04T19:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493561": {
-      "partido": "FC Tulsa vs Sacramento Republic",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T19:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.14,
-      "prob": null
-    },
-    "1525243": {
-      "partido": "McKinney Chupacabras vs Texoma",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-04T19:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1508453": {
-      "partido": "San Diego Wave W vs NJ/NY Gotham FC W",
-      "liga": "NWSL Women",
-      "kickoff": "2026-07-04T19:45:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.05,
-      "prob": null
-    },
-    "1513195": {
-      "partido": "North Texas vs St. Louis City II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-04T19:45:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.64,
-      "prob": null
-    },
-    "1493560": {
-      "partido": "Colorado Springs vs Phoenix Rising",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T20:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.78,
-      "prob": null
-    },
-    "1493568": {
-      "partido": "San Antonio vs Monterey Bay",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T20:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.42,
-      "prob": null
-    },
-    "1493565": {
-      "partido": "New Mexico United vs Oakland Roots",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T20:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493563": {
-      "partido": "Las Vegas Lights vs El Paso Locomotive",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-04T21:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1557962": {
-      "partido": "Namyangju vs Jungnang Chorus Mustang",
-      "liga": "FA Cup",
-      "kickoff": "2026-07-05T04:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1559517": {
-      "partido": "Geoje Citizen vs Seogot",
-      "liga": "FA Cup",
-      "kickoff": "2026-07-05T04:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1557963": {
-      "partido": "Busan Transportation vs Gijang United",
-      "liga": "FA Cup",
-      "kickoff": "2026-07-05T05:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 5.3,
-      "prob": null
-    },
-    "1557964": {
-      "partido": "Gyeongju HNP vs Seosan Pioneer",
-      "liga": "FA Cup",
-      "kickoff": "2026-07-05T05:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 6.43,
-      "prob": null
-    },
-    "1557965": {
-      "partido": "Pyeongtaek Citizen vs Yeoju Sejong",
-      "liga": "FA Cup",
-      "kickoff": "2026-07-05T05:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 4.37,
-      "prob": null
-    },
-    "1506989": {
-      "partido": "Gimcheon Sangmu FC vs Jeju United FC",
-      "liga": "K League 1",
-      "kickoff": "2026-07-05T05:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.22,
-      "prob": null
-    },
-    "1506990": {
-      "partido": "Gwangju FC vs Ulsan Hyundai FC",
-      "liga": "K League 1",
-      "kickoff": "2026-07-05T05:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 4.21,
-      "prob": null
-    },
-    "1506991": {
-      "partido": "FC Seoul vs Incheon United",
-      "liga": "K League 1",
-      "kickoff": "2026-07-05T05:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.36,
-      "prob": null
-    },
-    "1510367": {
-      "partido": "Gimhae City vs Seoul E-Land FC",
-      "liga": "K League 2",
-      "kickoff": "2026-07-05T05:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.99,
-      "prob": null
-    },
-    "1510368": {
-      "partido": "Gimpo Citizen vs Asan Mugunghwa",
-      "liga": "K League 2",
-      "kickoff": "2026-07-05T05:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.39,
-      "prob": null
-    },
-    "1510369": {
-      "partido": "Gyeongnam FC vs Cheonan City",
-      "liga": "K League 2",
-      "kickoff": "2026-07-05T05:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1510370": {
-      "partido": "Jeonnam Dragons vs Busan I Park",
-      "liga": "K League 2",
-      "kickoff": "2026-07-05T05:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1541520": {
-      "partido": "Ilves II vs EPS",
-      "liga": "Kakkonen - Lohko B",
-      "kickoff": "2026-07-05T06:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1494196": {
-      "partido": "IFK Goteborg vs AIK Stockholm",
-      "liga": "Allsvenskan",
-      "kickoff": "2026-07-05T07:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1494199": {
-      "partido": "Kalmar FF vs Orgryte IS",
-      "liga": "Allsvenskan",
-      "kickoff": "2026-07-05T07:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1517205": {
-      "partido": "TPV vs JJK",
-      "liga": "Ykkönen",
-      "kickoff": "2026-07-05T07:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1517207": {
-      "partido": "Rops vs PKKU",
-      "liga": "Ykkönen",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1539061": {
-      "partido": "VIFK W vs IF Gnistan",
-      "liga": "Kansallinen Liiga",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1546258": {
-      "partido": "Brazlândia FC SAF U20 vs Planaltina U20",
-      "liga": "Brasiliense U20",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547303": {
-      "partido": "Novorizontino U20 vs Velo Clube U20",
-      "liga": "Paulista - U20",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547306": {
-      "partido": "Porto Football U20 vs Palmeiras U20",
-      "liga": "Paulista - U20",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547308": {
-      "partido": "Referencia U20 vs RB Bragantino U20",
-      "liga": "Paulista - U20",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547309": {
-      "partido": "União Suzano U20 vs Mirassol U20",
-      "liga": "Paulista - U20",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547712": {
-      "partido": "Coimbra vs Valeriodoce",
-      "liga": "Mineiro - 2",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1559582": {
-      "partido": "Independente SP vs Tupa",
-      "liga": "Paulista Série B",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1559584": {
-      "partido": "José Bonifácio vs Manthiqueira",
-      "liga": "Paulista Série B",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1559587": {
-      "partido": "Sporting Paulinense vs Sao Carlos",
-      "liga": "Paulista Série B",
-      "kickoff": "2026-07-05T08:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547711": {
-      "partido": "Uberaba vs Mamoré",
-      "liga": "Mineiro - 2",
-      "kickoff": "2026-07-05T08:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547713": {
-      "partido": "BOA vs Caldense",
-      "liga": "Mineiro - 2",
-      "kickoff": "2026-07-05T08:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1495884": {
-      "partido": "ODD Ballklubb vs Haugesund",
-      "liga": "1. Division",
-      "kickoff": "2026-07-05T09:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1499969": {
-      "partido": "Berazategui vs Puerto Nuevo",
-      "liga": "Primera C",
-      "kickoff": "2026-07-05T09:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1526884": {
-      "partido": "Ypiranga-RS vs Paysandu",
-      "liga": "Serie C",
-      "kickoff": "2026-07-05T09:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1541993": {
-      "partido": "Tubarao vs Nação",
-      "liga": "Catarinense - 2",
-      "kickoff": "2026-07-05T09:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1541996": {
-      "partido": "Metropolitano vs Caravaggio",
-      "liga": "Catarinense - 2",
-      "kickoff": "2026-07-05T09:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1547307": {
-      "partido": "Corinthians U20 vs Sertãozinho U20",
-      "liga": "Paulista - U20",
-      "kickoff": "2026-07-05T09:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1567793": {
-      "partido": "Vélez Sársfield Res. vs Racing Club Res.",
-      "liga": "Reserve League",
-      "kickoff": "2026-07-05T09:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1494195": {
-      "partido": "IF Elfsborg vs Hammarby FF",
-      "liga": "Allsvenskan",
-      "kickoff": "2026-07-05T09:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513202": {
-      "partido": "New England II vs Philadelphia Union II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T10:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1541709": {
-      "partido": "VPS II vs Huima / Urho",
-      "liga": "Kakkonen - Lohko C",
-      "kickoff": "2026-07-05T10:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1504255": {
-      "partido": "MP vs Haka",
-      "liga": "Ykkösliiga",
-      "kickoff": "2026-07-05T10:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.58,
-      "prob": null
-    },
-    "1499496": {
-      "partido": "Argentino Quilmes vs Talleres Remedios",
-      "liga": "Primera B Metropolitana",
-      "kickoff": "2026-07-05T11:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.73,
-      "prob": 36.6
-    },
-    "1499506": {
-      "partido": "Sportivo Italiano vs Real Pilar",
-      "liga": "Primera B Metropolitana",
-      "kickoff": "2026-07-05T11:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.75,
-      "prob": 36.4
-    },
-    "1499977": {
-      "partido": "Sacachispas vs Juventud Unida",
-      "liga": "Primera C",
-      "kickoff": "2026-07-05T11:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.85,
-      "prob": 35.1
-    },
-    "1499979": {
-      "partido": "Victoriano Arenas vs Deportivo Paraguayo",
-      "liga": "Primera C",
-      "kickoff": "2026-07-05T11:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.93,
-      "prob": 34.1
-    },
-    "1508454": {
-      "partido": "Boston Legacy W vs Bay FC W",
-      "liga": "NWSL Women",
-      "kickoff": "2026-07-05T11:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1557277": {
-      "partido": "Gramadense vs Bagé",
-      "liga": "Copa Gaúcha",
-      "kickoff": "2026-07-05T12:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.92,
-      "prob": 34.2
-    },
-    "1567792": {
-      "partido": "Boca Juniors Res. vs River Plate Res.",
-      "liga": "Reserve League",
-      "kickoff": "2026-07-05T12:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": true,
-      "cuota": 2.97,
-      "prob": 33.7
-    },
-    "1498615": {
-      "partido": "CA Estudiantes vs Racing Cordoba",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": false,
-      "cuota": 2.85,
-      "prob": 35.1
-    },
-    "1498622": {
-      "partido": "Deportivo Madryn vs Colon Santa Fe",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": false,
-      "cuota": 2.85,
-      "prob": 35.1
-    },
-    "1499498": {
-      "partido": "Defensores Unidos vs Argentino de Merlo",
-      "liga": "Primera B Metropolitana",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1499505": {
-      "partido": "San Martín Burzaco vs Liniers",
-      "liga": "Primera B Metropolitana",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1499968": {
-      "partido": "Atletico Atlas vs Claypole",
-      "liga": "Primera C",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1499970": {
-      "partido": "Canuelas vs Central Cordoba",
-      "liga": "Primera C",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": false,
-      "cuota": 2.73,
-      "prob": 36.6
-    },
-    "1499971": {
-      "partido": "Lujan vs Fénix",
-      "liga": "Primera C",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.16,
-      "prob": null
-    },
-    "1499975": {
-      "partido": "General Lamadrid vs El Porvenir",
-      "liga": "Primera C",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530435": {
-      "partido": "Alvarado vs Germinal de Rawson",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530436": {
-      "partido": "Atenas vs Fundacion Amigos",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": true,
-      "resuelto": false,
-      "cuota": 2.82,
-      "prob": 35.5
-    },
-    "1530442": {
-      "partido": "Douglas Haig vs Sportivo Las Parejas",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.1,
-      "prob": null
-    },
-    "1530443": {
-      "partido": "Gimnasia Concepción vs 9 de Julio Rafaela",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.04,
-      "prob": null
-    },
-    "1530444": {
-      "partido": "Guillermo Brown vs Circulo Deportivo",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530446": {
-      "partido": "Olimpo Bahia Blanca vs Villa Mitre",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530449": {
-      "partido": "Sol de Mayo vs Kimberley Mar del Plata",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 2.68,
-      "prob": null
-    },
-    "1543624": {
-      "partido": "Vitoria Da Conquista vs Fluminense De Feira",
-      "liga": "Baiano - 2",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1543625": {
-      "partido": "Grapiuna Itabuna vs Leonico",
-      "liga": "Baiano - 2",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1543653": {
-      "partido": "Jacobina vs Feira FC",
-      "liga": "Baiano - 2",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1543654": {
-      "partido": "SSA vs Barreiras FC",
-      "liga": "Baiano - 2",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1543655": {
-      "partido": "Redenção FC vs Camaçari",
-      "liga": "Baiano - 2",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1549955": {
-      "partido": "Provincial vs Nautico Hacoaj",
-      "liga": "Torneo Promocional Amateur",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1549965": {
-      "partido": "Everton La Plata vs Belgrano Zarate",
-      "liga": "Torneo Promocional Amateur",
-      "kickoff": "2026-07-05T13:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498618": {
-      "partido": "Chaco For Ever vs Acassuso",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T13:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498624": {
-      "partido": "Ferro Carril Oeste vs San Telmo",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T13:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498627": {
-      "partido": "Patronato vs San Martin Tucuman",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T13:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530437": {
-      "partido": "Boca Unidos vs Sarmiento Resistencia",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530439": {
-      "partido": "Cipolletti vs Argentino Monte Maíz",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530440": {
-      "partido": "Defensores de Belgrano VR vs Atletico Escobar",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T13:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498616": {
-      "partido": "Atletico Mitre vs All Boys",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498625": {
-      "partido": "Midland vs Gimnasia Jujuy",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498629": {
-      "partido": "San Martin S.J. vs Chacarita Juniors",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525249": {
-      "partido": "St. Croix vs Edgewater Castle",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530438": {
-      "partido": "Gimnasia Chivilcoy vs El Linqueño",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530447": {
-      "partido": "San Martin Formosa vs Juventud Antoniana",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530448": {
-      "partido": "San Martín Mendoza vs Deportivo Rincon",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530450": {
-      "partido": "Sportivo Belgrano vs Independiente De Chivilcoy",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1530451": {
-      "partido": "Tucuman Central vs Sol de América",
-      "liga": "Torneo Federal A",
-      "kickoff": "2026-07-05T14:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498617": {
-      "partido": "Central Norte vs San Miguel",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T14:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1498623": {
-      "partido": "Deportivo Maipu vs Agropecuario",
-      "liga": "Primera Nacional",
-      "kickoff": "2026-07-05T14:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525247": {
-      "partido": "Project 51O vs Davis Legacy",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T15:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525420": {
-      "partido": "Eagle FC vs West Chester United",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T15:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1550771": {
-      "partido": "Búzios vs Itaborai Profute",
-      "liga": "Carioca C",
-      "kickoff": "2026-07-05T15:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1550773": {
-      "partido": "Ceres vs Brescia Clube",
-      "liga": "Carioca C",
-      "kickoff": "2026-07-05T15:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1550774": {
-      "partido": "Independente RJ vs Mageense",
-      "liga": "Carioca C",
-      "kickoff": "2026-07-05T15:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1568100": {
-      "partido": "Brazil vs Norway",
-      "liga": "World Cup",
-      "kickoff": "2026-07-05T15:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1508455": {
-      "partido": "Chicago Red Stars W vs Utah Royals W",
-      "liga": "NWSL Women",
-      "kickoff": "2026-07-05T16:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.79,
-      "prob": null
-    },
-    "1525246": {
-      "partido": "Virginia Marauders vs Bethesda SC",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T16:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525248": {
-      "partido": "Ballard vs Tacoma Stars",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T16:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 5.92,
-      "prob": null
-    },
-    "1525250": {
-      "partido": "West Seattle Junction vs Oly Town",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T16:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525254": {
-      "partido": "City SC vs Redlands",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T16:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513198": {
-      "partido": "FC Cincinnati II vs New York RB II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.97,
-      "prob": null
-    },
-    "1513199": {
-      "partido": "Connecticut FC vs Carolina Core",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 4.28,
-      "prob": null
-    },
-    "1525251": {
-      "partido": "San Francisco City vs Academica",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525256": {
-      "partido": "North Carolina II vs Asheville City",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T17:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1493570": {
-      "partido": "Miami FC vs Birmingham Legion",
-      "liga": "USL Championship",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.48,
-      "prob": null
-    },
-    "1493892": {
-      "partido": "Westchester SC vs Boise",
-      "liga": "USL League One",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1508456": {
-      "partido": "Portland Thorns W vs Racing Louisville W",
-      "liga": "NWSL Women",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513200": {
-      "partido": "Crown Legacy vs Orlando City II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513201": {
-      "partido": "Houston Dynamo FC II vs Minnesota United II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525244": {
-      "partido": "Christos vs Loudoun 2",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525252": {
-      "partido": "Bigfoot vs Bangers",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525255": {
-      "partido": "Little Rock Rangers vs Louisiana Krewe",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525257": {
-      "partido": "FC Miami City vs Miami AC",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525421": {
-      "partido": "PA Classics vs Reading United",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T18:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1520757": {
-      "partido": "Nautico Recife vs Juventude",
-      "liga": "Serie B",
-      "kickoff": "2026-07-05T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525245": {
-      "partido": "East Atlanta vs Birmingham Legion II",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525258": {
-      "partido": "Ironbound vs Staten Island Athletic",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T18:30:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513203": {
-      "partido": "Huntsville City vs Chicago Fire II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T19:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1524440": {
-      "partido": "Evergreen vs Patuxent",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T19:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1525253": {
-      "partido": "Marin vs SF Glens",
-      "liga": "USL League Two",
-      "kickoff": "2026-07-05T19:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1526876": {
-      "partido": "Anápolis vs Botafogo PB",
-      "liga": "Serie C",
-      "kickoff": "2026-07-05T19:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1570714": {
-      "partido": "Mexico vs England",
-      "liga": "World Cup",
-      "kickoff": "2026-07-05T19:00:00-05:00",
-      "evaluado": false,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": null,
-      "prob": null
-    },
-    "1513204": {
-      "partido": "Austin II vs Colorado Rapids II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T19:30:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 4.4,
-      "prob": null
-    },
-    "1513196": {
-      "partido": "Los Angeles FC II vs Real Monarchs",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T20:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.69,
-      "prob": null
-    },
-    "1513205": {
-      "partido": "Tacoma Defiance vs Portland Timbers II",
-      "liga": "MLS Next Pro",
-      "kickoff": "2026-07-05T21:00:00-05:00",
-      "evaluado": true,
-      "alertado": false,
-      "resuelto": false,
-      "cuota": 3.52,
-      "prob": null
-    },
     "1493891": {
       "partido": "Alta vs Charlotte Independence",
       "liga": "USL League One",
@@ -1525,20 +15,20 @@
       "partido": "IF Brommapojkarna vs Gais",
       "liga": "Allsvenskan",
       "kickoff": "2026-07-06T12:00:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
-      "cuota": null,
+      "cuota": 3.34,
       "prob": null
     },
     "1494197": {
       "partido": "BK Hacken vs Djurgardens IF",
       "liga": "Allsvenskan",
       "kickoff": "2026-07-06T12:00:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
-      "cuota": null,
+      "cuota": 3.59,
       "prob": null
     },
     "1578540": {
@@ -1765,6 +255,306 @@
       "partido": "Stars FC vs Tucson",
       "liga": "USL League Two",
       "kickoff": "2026-07-06T21:30:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1581344": {
+      "partido": "CAAC Brasil vs Uniao Central",
+      "liga": "Carioca C",
+      "kickoff": "2026-07-06T12:45:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1533718": {
+      "partido": "Hwacheon KSPO W vs Suwon FMC W",
+      "liga": "WK-League",
+      "kickoff": "2026-07-07T05:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1541710": {
+      "partido": "JBK vs Kraft",
+      "liga": "Kakkonen - Lohko C",
+      "kickoff": "2026-07-07T10:30:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1576804": {
+      "partido": "Argentina vs Egypt",
+      "liga": "World Cup",
+      "kickoff": "2026-07-07T11:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1578543": {
+      "partido": "Uni Souza vs Barra Mansa",
+      "liga": "Carioca C",
+      "kickoff": "2026-07-07T12:45:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1543932": {
+      "partido": "Athletico PR U17 vs Botafogo U17",
+      "liga": "Brasileiro U17",
+      "kickoff": "2026-07-07T13:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1543934": {
+      "partido": "Corinthians U17 vs Palmeiras U17",
+      "liga": "Brasileiro U17",
+      "kickoff": "2026-07-07T13:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1543937": {
+      "partido": "Fortaleza U17 vs Atlético Mineiro U17",
+      "liga": "Brasileiro U17",
+      "kickoff": "2026-07-07T13:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1543938": {
+      "partido": "Juventude U17 vs Santos U17",
+      "liga": "Brasileiro U17",
+      "kickoff": "2026-07-07T13:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1543940": {
+      "partido": "Vasco U17 vs Fluminense U17",
+      "liga": "Brasileiro U17",
+      "kickoff": "2026-07-07T13:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1546257": {
+      "partido": "Taguatinga U20 vs Gama U20",
+      "liga": "Brasiliense U20",
+      "kickoff": "2026-07-07T13:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1547335": {
+      "partido": "Gremio Prudente U20 vs Água Santa U20",
+      "liga": "Paulista - U20",
+      "kickoff": "2026-07-07T13:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1576805": {
+      "partido": "Switzerland vs Colombia",
+      "liga": "World Cup",
+      "kickoff": "2026-07-07T15:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525264": {
+      "partido": "West Virginia Alliance vs Louisville City II",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T17:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1520750": {
+      "partido": "Athletic Club vs Operario-PR",
+      "liga": "Serie B",
+      "kickoff": "2026-07-07T18:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525263": {
+      "partido": "SF Glens vs Almaden",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T18:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525265": {
+      "partido": "AC Connecticut vs Western Mass Pioneers",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T18:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525266": {
+      "partido": "Akron City vs Pittsburgh Riverhounds 2",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T18:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525268": {
+      "partido": "New England FC vs Boston City",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T18:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525273": {
+      "partido": "Union Macomb vs AFC Ann Arbor",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T18:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525274": {
+      "partido": "Vermont Green vs Connecticut Rush",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T18:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525276": {
+      "partido": "Hudson Valley Hammers vs FC Motown II",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T18:45:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525269": {
+      "partido": "Springfield vs Des Moines Menace",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T19:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525270": {
+      "partido": "Sunflower State vs Peoria",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T19:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525272": {
+      "partido": "Texoma vs Denton Diablos",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T19:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1513206": {
+      "partido": "Vancouver Whitecaps II vs Ventura County",
+      "liga": "MLS Next Pro",
+      "kickoff": "2026-07-07T20:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525422": {
+      "partido": "Real Colorado Foxes vs Albion Colorado",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T20:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525275": {
+      "partido": "Colorado Storm vs Unión Villa Krause",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T20:30:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1513197": {
+      "partido": "The Town vs Sporting KC II",
+      "liga": "MLS Next Pro",
+      "kickoff": "2026-07-07T21:00:00-05:00",
+      "evaluado": false,
+      "alertado": false,
+      "resuelto": false,
+      "cuota": null,
+      "prob": null
+    },
+    "1525271": {
+      "partido": "Tacoma Stars vs Midlakes United",
+      "liga": "USL League Two",
+      "kickoff": "2026-07-07T21:00:00-05:00",
       "evaluado": false,
       "alertado": false,
       "resuelto": false,
