@@ -195,7 +195,7 @@
       "partido": "Switzerland vs Colombia",
       "liga": "World Cup",
       "kickoff": "2026-07-07T15:00:00-05:00",
-      "evaluado": false,
+      "evaluado": true,
       "alertado": false,
       "resuelto": false,
       "cuota": null,
